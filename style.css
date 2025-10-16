@@ -2,13 +2,14 @@
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     gap: 10px; /* space between logo and title */
+    padding: 20px;
+    position: relative; /* for containing absolute children if needed */
 }
 
 header h1 {
     margin: 0;
-    color: #fff; /* keep header text white */
+    color: #fff; /* white text */
     font-size: 1.8em;
 }
 
@@ -16,7 +17,9 @@ header h1 {
 .logo {
     max-width: 60px; /* adjust size as needed */
     height: auto;
-    display: block;
+    position: absolute; /* fix logo at top-left */
+    top: 20px;
+    left: 20px;
 }
 
 /* Body */
@@ -33,9 +36,10 @@ header {
     background-color: #c00; /* deep red */
     color: #fff;
     padding: 20px;
-    text-align: center;
+    position: relative; /* ensure proper positioning context */
 }
 
+/* Navigation */
 nav a {
     color: #fff; /* white links */
     text-decoration: none;
