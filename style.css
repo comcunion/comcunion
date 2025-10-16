@@ -33,7 +33,7 @@ body {
 
 /* Header */
 header {
-    background-color: #c00; /* deep red */
+    background-color: #B62808; /* deep red */
     color: #fff;
     padding: 20px;
     position: relative; /* ensure proper positioning context */
@@ -57,7 +57,7 @@ section {
     padding: 20px;
     max-width: 800px;
     margin: 20px auto;
-    border-left: 6px solid #c00; /* red accent border */
+    border-left: 6px solid #B62808; /* red accent border */
     background-color: #fff; /* white section background */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -65,7 +65,7 @@ section {
 
 /* Headings */
 h1, h2 {
-    color: #c00; /* red headings */
+    color: #B62808; /* red headings */
 }
 
 /* Lists */
@@ -80,7 +80,7 @@ ul li {
 
 /* Links */
 a {
-    color: #c00; /* red links */
+    color: #B62808; /* red links */
     text-decoration: none;
     font-weight: bold;
 }
@@ -93,6 +93,6 @@ a:hover {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #c00; /* red footer */
+    background-color: #B62808; /* red footer */
     color: #fff;
 }
