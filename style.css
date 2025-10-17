@@ -6,7 +6,7 @@
     justify-content: center;
     gap: 15px;
     padding: 25px;
-    background: linear-gradient(135deg, #B62808, #8A1C00);
+    background: linear-gradient(135deg, #B62808, #FFC107);
     border-bottom: 4px solid #FFC107;
     animation: fadeIn 1s ease-in;
 }
@@ -22,7 +22,6 @@ header .logo {
     max-width: 80px;
     height: auto;
     display: block;
-    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
     transition: transform 0.3s ease;
 }
 
