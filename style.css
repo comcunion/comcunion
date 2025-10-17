@@ -7,7 +7,7 @@
     gap: 15px;
     padding: 25px;
     background: linear-gradient(135deg, #B62808, #B62808);
-    border-bottom: 4px solid #FFC107;
+    border-bottom: 4px solid #B62808;
     animation: fadeIn 1s ease-in;
 }
 
