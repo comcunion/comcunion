@@ -2,21 +2,30 @@
 .header-container {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center items horizontally */
-    gap: 10px; /* space between logo and title */
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+header {
+    background-color: #B62808;
+    color: #fff;
+    text-align: center;
     padding: 20px;
 }
 
 header h1 {
     margin: 0;
-    color: #fff; /* white text */
+    color: #fff;
     font-size: 1.8em;
 }
 
 /* Logo styling */
 .logo {
-    max-width: 60px; /* adjust size as needed */
+    max-width: 60px;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
 
 /* Body */
@@ -24,28 +33,20 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff; /* white background */
+    background-color: #B62808; /* Changed to red */
     color: #333;
-}
-
-/* Header */
-header {
-    background-color: #B62808; /* updated deep red */
-    color: #fff;
-    padding: 20px;
-    text-align: center; /* Ensure overall header content is centered */
 }
 
 /* Navigation */
 nav a {
-    color: #fff; /* white links */
+    color: #fff;
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #ff0; /* yellow accent on hover */
+    color: #ff0;
     text-decoration: underline;
 }
 
@@ -54,15 +55,15 @@ section {
     padding: 20px;
     max-width: 800px;
     margin: 20px auto;
-    border-left: 6px solid #B62808; /* updated red accent border */
-    background-color: #fff; /* white section background */
+    border-left: 6px solid #B62808;
+    background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 /* Headings */
 h1, h2 {
-    color: #B62808; /* updated red headings */
+    color: #B62808;
 }
 
 /* Lists */
@@ -77,19 +78,19 @@ ul li {
 
 /* Links */
 a {
-    color: #B62808; /* updated red links */
+    color: #B62808;
     text-decoration: none;
     font-weight: bold;
 }
 
 a:hover {
-    color: #ff0; /* yellow accent on hover */
+    color: #ff0;
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #B62808; /* updated red footer */
+    background-color: #B62808;
     color: #fff;
 }
