@@ -6,13 +6,13 @@
     justify-content: center;
     gap: 15px;
     padding: 25px;
-    background: linear-gradient(135deg, #B62808, #FFC107);
+    background: linear-gradient(135deg, #B62808, #B62808);
     border-bottom: 4px solid #FFC107;
     animation: fadeIn 1s ease-in;
 }
 
 header {
-    color: #fff;
+    color: #FFC107;
     text-align: center;
     padding: 10px 0;
 }
